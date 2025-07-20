@@ -100,7 +100,7 @@ export function Hero() {
           <span className="sr-only">Resume</span>
         </Link>
 
-        <Link href="mailto:alex.chen@email.com" className="group transition-all duration-300 hover:scale-110">
+        <Link href="mailto:sumitthakur776694@email.com" className="group transition-all duration-300 hover:scale-110">
           <div className="p-3 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 group-hover:bg-gradient-to-r group-hover:from-red-500/20 group-hover:to-yellow-500/20 group-hover:border-red-400/30 transition-all duration-300">
             <svg className="h-6 w-6" viewBox="0 0 24 24" aria-hidden="true">
               <defs>
