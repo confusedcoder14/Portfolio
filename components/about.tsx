@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card"
+import Image from "next/image"
 
 export function About() {
   return (
@@ -14,12 +15,14 @@ export function About() {
           <div>
             <Card className="bg-white/5 backdrop-blur-sm border-white/10">
               <CardContent className="p-6">
-                <div className="w-full h-64 bg-gradient-to-br from-purple-500/20 via-cyan-500/20 to-pink-500/20 rounded-lg mb-4 flex items-center justify-center backdrop-blur-sm border border-white/10">
-                  <div className="w-32 h-32 bg-gradient-to-br from-purple-400/30 to-cyan-400/30 rounded-full flex items-center justify-center backdrop-blur-sm border border-white/20">
-                    <span className="text-4xl font-bold bg-gradient-to-r from-purple-300 to-cyan-300 bg-clip-text text-transparent">
-                      AC
-                    </span>
-                  </div>
+                <div className="w-full h-64 rounded-lg overflow-hidden">
+                  <Image
+                    src="/images/about-photo.jpg"
+                    alt="Sumit Kumar - Frontend Developer"
+                    width={400}
+                    height={300}
+                    className="w-full h-full object-cover object-center"
+                  />
                 </div>
               </CardContent>
             </Card>
@@ -27,7 +30,7 @@ export function About() {
           <div className="space-y-4">
             <p className="text-lg text-gray-300 leading-relaxed">
               {
-                "I'm a passionate frontend developer with 5+ years of experience creating engaging web applications. I specialize in React, Next.js, and modern CSS frameworks."
+                "I'm a passionate frontend developer with 6 months of experience creating engaging web applications. I specialize in React, Next.js, and modern CSS frameworks."
               }
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
