@@ -13,11 +13,11 @@ export function Skills() {
     },
     {
       title: "Backend & Database",
-      skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Supabase", "Firebase"],
+      skills: ["Node.js", "MYSQL", "PostgreSQL", "MongoDB", "Supabase", "Firebase"],
     },
     {
       title: "Testing & Deployment",
-      skills: ["Jest", "Cypress", "Vercel", "Netlify", "Docker", "AWS", "CI/CD"],
+      skills: ["Vercel", "Netlify", "Docker", "AWS", "CI/CD", "Jest", "Cypress"],
     },
   ]
 

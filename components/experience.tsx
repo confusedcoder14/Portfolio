@@ -3,25 +3,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export function Experience() {
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "TechCorp Inc.",
-      period: "2022 - Present",
-      description:
-        "Lead frontend development for multiple client projects, mentoring junior developers, and implementing modern React patterns and performance optimizations.",
-    },
-    {
       title: "Frontend Developer",
-      company: "StartupXYZ",
-      period: "2020 - 2022",
+      company: "Atharva Optikos",
+      period: "July 2024 - January 2025",
       description:
-        "Developed responsive web applications using React and Next.js, collaborated with design teams to implement pixel-perfect UIs, and improved application performance by 40%.",
-    },
-    {
-      title: "Junior Web Developer",
-      company: "Digital Agency",
-      period: "2019 - 2020",
-      description:
-        "Built custom WordPress themes, implemented interactive JavaScript features, and worked on various client websites with focus on mobile responsiveness.",
+        "As a Frontend Developer, responsibilities include building and maintaining websites using HTML, CSS, and JavaScript. This role involves designing responsive layouts, implementing interactive features, and ensuring cross-browser compatibility",
     },
   ]
 
